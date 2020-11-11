@@ -1,11 +1,6 @@
 # ----------------------------------------------------------------------------------------------
 # NUKE - Nuke Unbearable Load King
-#
-# this tool is a dos tool that is meant to put heavy load on HTTP servers in order to bring them
-# to their knees by exhausting the resource pool, its is meant for research purposes only
-# and any malicious usage of this tool is prohibited.
-#
-# author :  Barry Shteiman , version 1.0
+# author : Santy , version 1.0
 # ----------------------------------------------------------------------------------------------
 import urllib2
 import sys
@@ -100,7 +95,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
-			print 'Response Code 500'
+			print 'código de respuesta 500'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
