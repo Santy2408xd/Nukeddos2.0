@@ -74,7 +74,7 @@ def usage():
 	print 'USAGE: python nukeddos.py <url>'
 	print 'you can add "safe" after url, to autoshut after dos'
 	print '---------------------------------------------------'
-  print 'createdBySanty'
+	
 	
 #http request
 def httpcall(url):
