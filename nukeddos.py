@@ -71,9 +71,11 @@ def buildblock(size):
 def usage():
 	print 'tuputamadre developed'
 	print '---------------------------------------------------'
-	print 'USAGE: python nukeddos.py <url>'
-	print 'you can add "safe" after url, to autoshut after dos'
+	print 'USO: python nukeddos.py <url>'
+	print 'Para todo aquel que quiera utilizar esta tool, no me hago responsable por su uso'
 	print '---------------------------------------------------'
+	print 'PA LO QUE DIJIERON QUE NO SABIA CREAR TOOLS, TOMA PAPA'
+	print 'CREATED BY SANTY'
 	
 	
 #http request
