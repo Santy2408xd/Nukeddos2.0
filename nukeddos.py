@@ -69,12 +69,7 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-  print '███╗░░██╗██╗░░░██╗██╗░░██╗███████╗'
-  print '████╗░██║██║░░░██║██║░██╔╝██╔════╝'
-  print '██╔██╗██║██║░░░██║█████═╝░█████╗░░'
-  print '██║╚████║██║░░░██║██╔═██╗░██╔══╝░░'
-  print '██║░╚███║╚██████╔╝██║░╚██╗███████╗'
-  print '╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚══════╝'
+	print 'tuputamadre developed'
 	print '---------------------------------------------------'
 	print 'USAGE: python nukeddos.py <url>'
 	print 'you can add "safe" after url, to autoshut after dos'
